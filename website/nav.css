@@ -1,0 +1,53 @@
+/*Nav topbar*/
+/*ul*/
+ul{list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;}
+
+li{float: left;}
+
+li a, .dropbtn{display: inline-block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;}
+
+li a:hover, .drp:hover.dropbtn{background-color: red;}
+
+li.drp{display: inline-block;}
+
+.drpContent{display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;}
+
+.drpContent a{color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;}
+
+.drpContent a:hover{background-color: #f1f1f1}
+
+.drp:hover .drpContent{display:block}
+
+/*Search Bar*/
+input[type=text]{right: 0;
+width: 200px;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+background-color: white;
+background-position: 10px 10px;
+background-repeat: no-repeat;
+padding: 6px 6px 8px 20px;
+transition: width 0.4s ease-in-out;}
+
+input{padding-top: 30px;}
+
+
