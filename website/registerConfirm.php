@@ -37,7 +37,7 @@
                 
             // If the input in the Authentication field does not equal the code then it throws an 
             if(!isset($_SESSION['loggedin'])){
-                if($auth != "qMr?EmPj-CCq77mk")
+                if($auth != "[DEPRECATED]")
                     {
                             $bool = false;
                             print '<script>alert("Incorrect Authentication Code");</script>';
