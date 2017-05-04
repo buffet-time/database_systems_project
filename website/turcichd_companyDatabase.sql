@@ -40,7 +40,7 @@ CREATE TABLE `Customer` (
 --
 
 INSERT INTO `Customer` (`FName`, `LName`, `Address`, `Password`, `Username`, `Email`) VALUES
-('Customer', 'Customer', '1 Customer Drive', '$1$0wr.uJHk$nVgVyPQ/ZvD.qvX2vhHML0', 'customer', 'customer@customer.com');
+([DEPRECATED]);
 
 -- --------------------------------------------------------
 
@@ -63,8 +63,8 @@ CREATE TABLE `Employee` (
 --
 
 INSERT INTO `Employee` (`Password`, `Employee_number`, `Address`, `FName`, `LName`, `phoneNumber`, `Manager`) VALUES
-('$1$KHE3nX91$FNRKWSSgGl/BzpU1EkcPQ.', 333, '1 Employee Way', 'Employee', 'Employee', 3334943842, 0),
-('$1$NZSwV5Ba$0varNdyp7IaRSpMW.sNzh0', 444, '1 Manager Boulevard', 'Manager', 'Manager', 4934637238, 1);
+([DEPRECATED]),
+([DEPRECATED]);
 
 -- --------------------------------------------------------
 
@@ -85,7 +85,7 @@ CREATE TABLE `Owner` (
 --
 
 INSERT INTO `Owner` (`ID`, `FName`, `LName`, `Address`, `Contact_Information`) VALUES
-('$1$fGhFdlpV$RtiHwD5fHnQcURw794Jd6.', 'Owner', 'Owner', '1 Owner Drive', 6953248675);
+([DEPRECATED]);
 
 -- --------------------------------------------------------
 
@@ -157,13 +157,13 @@ CREATE TABLE `Receipt` (
 --
 
 INSERT INTO `Receipt` (`Address_sent`, `Username`, `Order_number`, `Total`, `Time_Stamp`) VALUES
-('299 Piaget Avenue', 'Spooki', 1, '650.00', '2017-05-03 03:06:34.341659'),
-('', '', 2, '0.00', '2017-05-03 03:09:25.538538'),
-('21 Mahogany Drive', 'cuck', 3, '300.00', '2017-05-03 03:12:20.566201'),
-('299 Piaget Avenue', 'Spooki', 4, '40.00', '2017-05-03 15:45:00.451942'),
-('1 Customer Drive', 'customer', 5, '53.00', '2017-05-03 16:08:03.662482'),
-('1 Customer Drive', 'customer', 6, '72.00', '2017-05-03 17:23:10.621454'),
-('1 Customer Drive', 'customer', 7, '74.00', '2017-05-03 21:23:18.401026');
+([DEPRECATED]),
+([DEPRECATED]),
+([DEPRECATED]),
+([DEPRECATED]),
+([DEPRECATED]),
+([DEPRECATED]),
+([DEPRECATED]);
 
 --
 -- Indexes for dumped tables
